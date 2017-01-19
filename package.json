@@ -1,0 +1,26 @@
+{
+  "name": "classroom",
+  "version": "1.0.0",
+  "description": "Teaching assistant",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madprog/classroom.git"
+  },
+  "keywords": [
+    "teacher",
+    "teaching",
+    "assistant",
+    "assistance"
+  ],
+  "author": "Paul Morelle",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/madprog/classroom/issues"
+  },
+  "homepage": "https://github.com/madprog/classroom#readme"
+}
