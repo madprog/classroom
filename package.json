@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Teaching assistant",
   "main": "index.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "cordova": "^6.4.0"
+  },
   "scripts": {
     "test": "gulp test"
   },
