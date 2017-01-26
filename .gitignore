@@ -1,1 +1,5 @@
+/platforms
+/plugins
+/www/index.*
+/build
 /node_modules/
