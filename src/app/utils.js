@@ -1,9 +1,12 @@
+import { HashRouter as Router } from 'react-router-dom';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import React from 'react';
 
 export const Encapsulate = ({ children, muiTheme }) => (
   <MuiThemeProvider muiTheme={muiTheme}>
-    {children}
+    <Router>
+      {children}
+    </Router>
   </MuiThemeProvider>
 );
 
