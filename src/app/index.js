@@ -5,6 +5,7 @@ import injectTapEventPlugin from 'react-tap-event-plugin';
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import * as i18n from './i18n';
 import reducer from './reducer';
 import Root from './root';
 import theme from './theme';
@@ -39,9 +40,12 @@ export const init = () => {
 
   const store = createStore(reducer, composeWithDevTools(applyMiddleware(...middlewares)));
 
+  document.addEventListener('deviceready', () => {
+    store.dispatch(i18n.retrieveLocaleName());
+  });
+
   ReactDOM.render((
     <Encapsulate
-      locale="en"
       muiTheme={theme}
       store={store}
     >
