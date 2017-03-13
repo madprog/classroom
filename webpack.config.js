@@ -18,7 +18,7 @@ module.exports = {
         loader: extractHtml.extract(['html-loader']),
       },
       { test: /\.js$/, exclude: /node_modules/, loaders: [
-        'babel-loader?presets[]=react&presets[]=es2015',
+        'babel-loader?presets[]=react&presets[]=es2015&plugins[]=transform-object-rest-spread',
         'eslint-loader?{configFile:".eslintrc.json"}',
       ] },
       {
