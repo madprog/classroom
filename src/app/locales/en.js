@@ -1,4 +1,4 @@
-const appName = 'Application name';
+const appName = 'Classroom';
 
 export default {
   'index.title': appName,

@@ -1,5 +1,5 @@
-Application name
-================
+Classroom
+=========
 
 Compilation
 -----------
